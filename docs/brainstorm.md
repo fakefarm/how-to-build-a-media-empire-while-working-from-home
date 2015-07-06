@@ -51,6 +51,43 @@ https://middlemanapp.com/advanced/dynamic_pages/
 
 - make a template for things like links.
 
+`current_page`, `current_article`
+
+I've tried at least 15 different blogging platforms. My most favorite is Middleman. It has all of my favorites combined.
+
+### write in markdown
+
+I always hated how Word tried to format things while I'm writing. Totally distracted me from whatever I was doing. Word and Pages are known as _Rich Text_ editors. Markdown is a _Plain Text_ and has formatting I can do without it getting in the way.
+
+### write offline
+
+I love the ability to write without an online dashboard and intenet connection blocking me from writing.
+
+### Write with a Text Editor
+
+I have become so accustomed to my shortcuts that I try to write everything in my editor and then copy/paste it.
+
+### platform is ruby
+
+I love that I get to manage the guts in `Ruby`, rather than `php` or `node`
+
+### static site
+
+As a static site, middleman is fast.
+
+### free hosting
+
+Need I say more? Middleman can be hosted on github.
+
+### extensible
+
+Middleman is great that I can add extra pages or custom styling with little to no trouble.
+
+### Version controlled
+
+Since I'm building on git, I have my history in the event I want to go back in time.
+
+
 
 
 demo app will have -
