@@ -1,57 +1,43 @@
+## Intro
 
-## Introduce MM
-    ## Static Generator
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-        cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-        proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-    ## Benefits
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-        cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-        proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+- i'm dave
+- want to show you a way to build a media empire
+- there are some stereotypes and objections
 
-## Can I do some stereo typing?
-    ## about you
-        you are my target audience if most of these things apply to you.  
-        - you need money
-            therefore you need to market yourself to the next job or client.
-        - you are a programmer
-            you know how to code and build cool things, like websites
-        - you can't do more than one thing at a time
-            if you have to keep switching contexts, you have trouble. 
-        - you are ruby, mac, and terminal user
-        - you take breaks
-            so you're reading, watching, building, listening to something. 
-            some are good and worth saving
-        - you get tons of links across your view on a daily basis
-            these things can 
+## Stereotypes
+### 1. You need to make money
 
+- clients
+- job
 
-## GOAL
-    It is my hope that Middleman will help you stay in your same chair, market yourself for your next gig, with ease.
+so what's the first step to make money? To get people to know who you are. Another way to say it is... MARKETING (GASP!)
+
+ok how do i market myself? It's easier to think of yourself as a brand, and differentiate yourself from you. 
+
+If that's too abstract, I think of it as the 3P's
+
+Personal
+- blog
+- photos
+- links
+
+Professional
+- what do you do?
+- prove it (portfolio)
+
+Practice
+this is kind of a new one. most developers don't think their toys and practice are important but it's the DELTA. it's the trend line. it's where you're going.
+I use a site I call fake farm - with pet projects.
+
+So, we can talk about more of that if you want but the idea of marketing is just to put this information in public.
 
 
-
-## Marketing - the 3 p's
-
-## Content - reddit and more.
-
-## Automation
-    - bash
-    - deploy
+## MM
 
 
+### blurb about github / marketing
+With Middleman, you are pushing commits to your github. So, Back on marketing for a moment. It's a pretty common request and willingness to send over a github account. So, let's take a look at some developers evidence they know what they're doing. [show some githubs of anonymous]. Perectpion is reality and from teh looks of these accounts, they don't convey a sense that these people are passionate developers. Make your github look lively with middleman.
 
-## Let's build a site
-
-    - install
-    - live
-    - gems
-    - markup
-    - bash script
-    - 
+## Objectives
+## Conclusion
+## Thanks
