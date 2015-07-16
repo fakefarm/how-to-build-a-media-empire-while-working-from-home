@@ -1,4 +1,5 @@
-# setup
+# Boulder Ruby
+
 
 # setup
 1. gem install middleman
@@ -23,8 +24,8 @@ http://localhost:4567/__middleman/sitemap/
 
 
 # bash script
+add
 
-
-# Love coding portion
+# Live coding portion
 - make a template that uses data
 - add data via bash script

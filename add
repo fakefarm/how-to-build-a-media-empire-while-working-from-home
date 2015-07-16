@@ -1,0 +1,89 @@
+#!/usr/bin/env ruby -w
+
+require 'yaml'
+
+class QuestionStrategy
+  attr_reader  :resource
+
+  def initialize(resource)
+    @resource = resource
+  end
+
+  def run!
+    questions = YAML.load(File.read(file_path))
+    entry = {
+      "title" => resource,
+      "date" => Time.now.strftime("%B %e, %Y")
+    }
+
+    if questions['entries'].nil?
+      questions['entries'] = [entry]
+    else
+      questions['entries'] << entry
+    end
+
+      File.open(file_path, "w") do |f|
+        f.write(YAML.dump questions)
+      end
+  end
+
+  def file_path
+    File.join(ENV['HOME'], "Code/300_code/projects/how-to-build-a-media-empire-while-working-from-home/data/questions.yml")
+  end
+end
+
+class LinkStrategy
+  attr_reader  :resource
+
+  def initialize(resource)
+    @resource = resource
+  end
+
+  def run!
+    links = YAML.load(File.read(file_path))
+    entry = {
+      "url" => resource,
+      "date" => Time.now.strftime("%B %e, %Y")
+    }
+
+    if links['entries'].nil?
+      links['entries'] = [entry]
+    else
+      links['entries'] << entry
+    end
+
+      File.open(file_path, "w") do |f|
+        f.write(YAML.dump links)
+      end
+  end
+
+  def file_path
+    File.join(ENV['HOME'], "Code/300_code/projects/how-to-build-a-media-empire-while-working-from-home/data/links.yml")
+  end
+end
+
+class Application
+
+  attr_reader :cmd
+
+ DATA_SOURCES = {
+   'li' => LinkStrategy,
+   'q' => QuestionStrategy
+ }
+  def initialize(args)
+    @cmd = args[0]
+    @resource = args[1]
+  end
+
+  def run!
+    class_name = DATA_SOURCES[cmd]
+    if class_name.nil?
+      puts "nasty message"
+      exit
+    end
+    service = class_name.new @resource
+    service.run!
+  end
+end
+
+Application.new(ARGV).run!
