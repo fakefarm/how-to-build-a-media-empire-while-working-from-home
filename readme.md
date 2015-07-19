@@ -2,11 +2,6 @@
 
 ### Notes
 
-#### setup
-1. gem install middleman
-2. middleman init demo --template=blog
-3. be middleman
-
 #### gemfile
 - free to use as you use a rails
 - assets
@@ -36,7 +31,11 @@ add
 ## Live Coding flow with the demo app
 
 ### setup
-- install mm
+#### 1. install mm
+1. gem install middleman
+2. middleman init demo --template=blog (explain the eco system)
+3. be middleman
+
 - copy gemfile
 - copy over config
 - github 
@@ -57,6 +56,7 @@ add
 - introduce aliases
 
 ### styling
+- introduce thoughtbot suite and bitters
 - bitters install (add application.scss with bourbon, neat, and stylesheet_link_tag)
 
 
@@ -65,3 +65,7 @@ add
 ## sitemap
 You can see wha
 http://localhost:4567/__middleman/sitemap/
+
+## Thoughtbot Suite
+
+[bitters](http://bitters.bourbon.io/) - baseline framework
