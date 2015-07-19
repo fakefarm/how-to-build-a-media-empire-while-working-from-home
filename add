@@ -3,16 +3,16 @@
 require 'yaml'
 
 class QuestionStrategy
-  attr_reader  :resource
+  attr_reader  :title
 
-  def initialize(resource)
-    @resource = resource
+  def initialize(title, url='')
+    @title = title
   end
 
   def run!
     questions = YAML.load(File.read(file_path))
     entry = {
-      "title" => resource,
+      "title" => title,
       "date" => Time.now.strftime("%B %e, %Y")
     }
 
@@ -28,22 +28,24 @@ class QuestionStrategy
   end
 
   def file_path
-    File.join(ENV['HOME'], "Code/300_code/projects/how-to-build-a-media-empire-while-working-from-home/data/questions.yml")
+    File.join(Dir.pwd, "/data/questions.yml")
   end
 end
 
 class LinkStrategy
-  attr_reader  :resource
+  attr_reader  :title, :url
 
-  def initialize(resource)
-    @resource = resource
+  def initialize(title, url)
+    @title = title
+    @url = url
   end
 
   def run!
     links = YAML.load(File.read(file_path))
     entry = {
-      "url" => resource,
-      "date" => Time.now.strftime("%B %e, %Y")
+      "title" => title,
+      "date" => Time.now.strftime("%B %e, %Y"),
+      "url" => url
     }
 
     if links['entries'].nil?
@@ -58,7 +60,7 @@ class LinkStrategy
   end
 
   def file_path
-    File.join(ENV['HOME'], "Code/300_code/projects/how-to-build-a-media-empire-while-working-from-home/data/links.yml")
+    File.join(Dir.pwd, "/data/links.yml")
   end
 end
 
@@ -72,7 +74,8 @@ class Application
  }
   def initialize(args)
     @cmd = args[0]
-    @resource = args[1]
+    @title = args[1]
+    @url = args[2]
   end
 
   def run!
@@ -81,9 +84,10 @@ class Application
       puts "nasty message"
       exit
     end
-    service = class_name.new @resource
+    service = class_name.new @title, @url
     service.run!
   end
 end
 
 Application.new(ARGV).run!
+# `bundle exec middleman deploy`
