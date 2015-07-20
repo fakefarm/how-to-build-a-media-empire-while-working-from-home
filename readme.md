@@ -1,33 +1,5 @@
 # Boulder Ruby
 
-### Notes
-
-#### gemfile
-- free to use as you use a rails
-- assets
-- live reload
-- debugger
-
-#### config.rb
-lots of configurations
-- activate
-- helpers
-- set
-- configure
-
-#### github
-- initialize new demo
-- init repo
-- add commits
-- mmd
-
-#### bash script
-add
-
-#### Live coding portion
-- make a template that uses data
-- add data via bash script
-
 ## Live Coding flow with the demo app
 
 ### setup
@@ -58,6 +30,34 @@ add
 ### styling
 - introduce thoughtbot suite and bitters
 - bitters install (add application.scss with bourbon, neat, and stylesheet_link_tag)
+
+### MISC Notes
+
+#### gemfile
+- free to use as you use a rails
+- assets
+- live reload
+- debugger
+
+#### config.rb
+lots of configurations
+- activate
+- helpers
+- set
+- configure
+
+#### github
+- initialize new demo
+- init repo
+- add commits
+- mmd
+
+#### bash script
+add
+
+#### Live coding portion
+- make a template that uses data
+- add data via bash script
 
 
 # Readme parts to stay
