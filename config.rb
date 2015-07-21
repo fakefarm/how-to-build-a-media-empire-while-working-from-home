@@ -16,9 +16,9 @@ activate :blog do |blog|
   blog.calendar_template = "calendar.html"
 end
 
-# data.links['entries'].each do |link|
-#   proxy "/links/#{link.title.parameterize}.html", "/links/index.html", :locals => { :link => link }, :ignore => true
-# end
+data.links['entries'].each do |link|
+  proxy "/links/#{link.title.parameterize}.html", "/links/index.html", :locals => { :link => link }, :ignore => true
+end
 
 helpers do
   def questions_path

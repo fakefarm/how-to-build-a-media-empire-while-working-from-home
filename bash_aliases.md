@@ -14,3 +14,9 @@ alias mm="cd $HOME/Code/300_code/projects/woodall && be middleman article $1"
 
 ### open my site
 alias www="cd $HOME/Code/300_code/projects/woodall && s ."
+
+### add a question from anywhere
+alias q="cd $HOME/Code/300_code/projects/how-to-build-a-media-empire-while-working-from-home && ./add q $1 && cd -"
+
+### add a question from anywhere
+alias li="cd $HOME/Code/300_code/projects/how-to-build-a-media-empire-while-working-from-home && ./add li $1 && cd -"

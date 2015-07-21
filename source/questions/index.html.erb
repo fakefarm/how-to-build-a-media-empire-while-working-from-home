@@ -1,6 +1,8 @@
 <% data.questions['entries'].each do |entry| %>
   <div>
     <%= entry.title %>
-    <%= entry.date %>
+    <small>
+      <%= entry.date %>
+    </small>
   </div>
 <% end %>
