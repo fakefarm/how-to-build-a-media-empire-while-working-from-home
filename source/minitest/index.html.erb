@@ -1,0 +1,5 @@
+<% data.minitest['entries'].each do |entry| %>
+  <div>
+    <p><%= link_to entry.title, entry.url %> | <%= entry.date %></p>
+  </div>
+<% end %>

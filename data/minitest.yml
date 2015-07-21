@@ -1,0 +1,74 @@
+---
+entries:
+- title: "zenspider/minitest-matchers"
+  date: 2015-07-20
+  url: https://github.com/zenspider/minitest-matchers
+- title: "wojtekmach/minitest-matchers"
+  date: 2015-07-20
+  url: https://github.com/wojtekmach/minitest-matchers
+- title: "Hakim El Hattab"
+  date: 2015-07-20
+  url: http://hakim.se/
+- title: "Privacy error"
+  date: 2015-07-20
+  url: https://rubyoffrails.com/videos/12-testing-3-ways-rspec-minitest-test-unit
+- title: "Announcing minitest-rails · blowmage"
+  date: 2015-07-20
+  url: http://blowmage.com/2012/07/10/announcing-minitest-rails
+- title: "ruby - minitest, test::unit, and rails - Stack Overflow"
+  date: 2015-07-20
+  url: http://stackoverflow.com/questions/10573923/minitest-testunit-and-rails
+- title: "Test::Unit and MiniTest with different Ruby versions - James - Mead"
+  date: 2015-07-20
+  url: http://jamesmead.org/blog/2009-02-02-test-unit-and-minitest-with-different-ruby-versions
+- title: "minitest | software projects by ryan davis"
+  date: 2015-07-20
+  url: http://www.zenspider.com/projects/minitest.html
+- title: "Class: MiniTest::Spec"
+  date: 2015-07-20
+  url: http://bfts.rubyforge.org/minitest/MiniTest/Spec.html
+- title: "A MniTest::Spec Tutorial: Elegant Spec-Style Testing That Comes With Ruby"
+  date: 2015-07-20
+  url: http://www.rubyinside.com/a-minitestspec-tutorial-elegant-spec-style-testing-that-comes-with-ruby-5354.html
+- title: "www.zenspider.com/pdf/CascadiaRubyConf_2011_-- _Size_Doesn%27t_Matter.pdf"
+  date: 2015-07-20
+  url: http://www.zenspider.com/pdf/CascadiaRubyConf_2011_-_Size_Doesn%27t_Matter.pdf
+- title: "The Minitest Cookbook"
+  date: 2015-07-20
+  ul: http://chriskottom.com/minitestcookbook/
+- title: "A Guide to Testing Rails Applications — Ruby on Rails Guides"
+  date: 2015-07-20
+  url: http://guides.rubyonrails.org/testing.html#a-brief-note-about-minitest
+- title: "twitter/Configuration.md at master · sferik/twitter"
+  date: 2015-07-20
+  url: https://github.com/sferik/twitter/blob/master/examples/Configuration.md
+- title: "freerange/mocha"
+  date: 2015-07-20
+  url: https://github.com/freerange/mocha
+- title: "How To Add jQuery and Ajax To Your Rails App | The Pragmatic - Studio"
+  date: 2015-07-20
+  url: https://pragmaticstudio.com/blog/2015/3/18/rails-jquery-ajax?utm_source=rubyweekly&utm_medium=email
+- title: "blowmage/minitest-rails-capybara"
+  date: 2015-07-20
+  url: https://github.com/blowmage/minitest-rails-capybara
+- title: "Adding Minitest Spec in Rails 4 · blowmage"
+  date: 2015-07-20
+  url: http://blowmage.com/2013/07/08/minitest-spec-rails4
+- title: "blowmage/minitest-rails-capybara"
+  date: 2015-07-20
+  url: https://github.com/blowmage/minitest-rails-capybara#usage
+- title: "7 reasons I'm Sticking With Minitest and Fixtures in Rails | Brandon Hilkert"
+  date: 2015-07-20
+  url: http://brandonhilkert.com/blog/7-reasons-why-im-sticking-with-minitest-and-fixtures-in-rails/
+- title: "Crowd Interactive Blog | Testing Rails with MiniTest"
+  date: 2015-07-20
+  url: http://blog.crowdint.com/2013/06/14/testing-rails-with-minitest.html
+- title: "Intro to MiniTest"
+  date: 2015-07-20
+  url: http://blog.teamtreehouse.com/short-introduction-minitest
+- title: "BDD on Rails with Minitest, Part 1: Up and Running - Semaphore"
+  date: 2015-07-20
+  url: https://semaphoreci.com/blog/2014/10/27/bdd-on-rails-with-minitest-part-1-up-and-running.html
+- title: "jnicklas/capybara"
+  date: 2015-07-20
+  url: https://github.com/jnicklas/capybara
